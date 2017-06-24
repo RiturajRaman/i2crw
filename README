@@ -1,0 +1,5 @@
+This projects has two c applications for interfacing to i2c devices;
+1. With repeated start
+2. Without repeated start
+
+Go in the appropriate folder and follow the readme. 

@@ -1,0 +1,7 @@
+This app reads from / writes to i2c slave devices connected to dm365.
+
+To compile:
+arm-arago-linux-gnueabi-gcc i2crw.c -o i2crw
+
+To run on target (dm)
+./i2crw <slave_address> <0: write, 1: read> <register_address> <value to be written(optional)
